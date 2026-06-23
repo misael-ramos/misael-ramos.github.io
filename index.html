@@ -85,24 +85,6 @@
     .modal-project-icon { font-size: 15px; }
 
     .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
-<a class="project-card" href="https://github.com/misael-ramos/crypto-dw" target="_blank" rel="noopener">
-  <div class="project-top">
-    <div class="project-icon" style="background:#EEEDFE">🏗️</div>
-    <div><div class="project-name">crypto-dw</div></div>
-  </div>
-  <p class="project-desc">Data Warehouse dimensional com Star Schema construído sobre os dados do crypto-pipeline. Dimensões, tabela fato e queries analíticas no Amazon Athena.</p>
-  <div class="project-tags">
-    <span class="ptag">SQL</span>
-    <span class="ptag">Star Schema</span>
-    <span class="ptag">AWS S3</span>
-    <span class="ptag">Athena</span>
-    <span class="ptag">Modelagem</span>
-  </div>
-  <span class="project-link">
-    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
-    Ver no GitHub
-  </span>
-</a>
     .project-card { background: var(--surface); border: 0.5px solid var(--border); border-radius: var(--radius-lg); padding: 1.25rem; text-decoration: none; color: inherit; display: block; transition: border-color .25s, transform .25s; }
     .project-card:hover { border-color: var(--blue); transform: translateY(-3px); }
     .project-top { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px; }
@@ -147,7 +129,7 @@
   <div class="hero">
     <div class="avatar">MR</div>
     <h1>Misael Ramos</h1>
-    <p class="hero-role">Engenheiro de Dados em formação</p>
+    <p class="hero-role">Data Engineer | Python • AWS • SQL</p>
     <p class="hero-bio">Profissional de TI em transição para Engenharia de Dados. Construindo pipelines, dashboards e soluções com Python, AWS e SQL. Baseado em Recife, PE.</p>
     <div class="lang-row">
       <span class="lang-pill"><span class="lang-flag">🇧🇷</span> Português <span class="lang-level">· nativo</span></span>
@@ -206,6 +188,33 @@
           Ver no GitHub
         </span>
       </a>
+      <a class="project-card" href="https://github.com/misael-ramos/crypto-dw" target="_blank" rel="noopener">
+  <div class="project-top">
+    <div class="project-icon" style="background:#EEEDFE">🏗️</div>
+    <div>
+      <div class="project-name">crypto-dw</div>
+    </div>
+  </div>
+
+  <p class="project-desc">
+    Data Warehouse dimensional construído sobre os dados do crypto-pipeline utilizando Star Schema, tabela fato, dimensões e consultas analíticas no Amazon Athena.
+  </p>
+
+  <div class="project-tags">
+    <span class="ptag">SQL</span>
+    <span class="ptag">Star Schema</span>
+    <span class="ptag">Athena</span>
+    <span class="ptag">AWS S3</span>
+    <span class="ptag">Data Warehouse</span>
+  </div>
+
+  <span class="project-link">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+    </svg>
+    Ver no GitHub
+  </span>
+</a>
     </div>
   </section>
 
@@ -228,28 +237,56 @@ const STACK = [
     projects:[] },
   { name:'AWS S3', color:'#D85A30', bg:'#FAECE7', category:'Cloud AWS',
     desc:'Serviço de armazenamento de objetos da AWS utilizado como data lake. Armazena dados brutos (JSON) e processados (Parquet) particionados por data.',
-    projects:[{icon:'🪙', name:'crypto-pipeline'},{icon:'💱', name:'arbitrage-brl-ars'}] },
+    projects:[
+  {icon:'🪙', name:'crypto-pipeline'},
+  {icon:'💱', name:'arbitrage-brl-ars'},
+  {icon:'🏗️', name:'crypto-dw'}] },
   { name:'AWS Athena', color:'#D85A30', bg:'#FAECE7', category:'Cloud AWS',
     desc:'Query engine serverless da AWS que permite executar SQL diretamente sobre arquivos no S3. Custo baseado em dados escaneados — sem servidor para gerenciar.',
-    projects:[{icon:'🪙', name:'crypto-pipeline'}] },
+   projects:[
+  {icon:'🪙', name:'crypto-pipeline'},
+  {icon:'🏗️', name:'crypto-dw'}] },
   { name:'AWS Lambda', color:'#D85A30', bg:'#FAECE7', category:'Cloud AWS',
     desc:'Serviço de computação serverless da AWS. Permite executar funções Python sob demanda ou agendadas sem provisionar servidores.',
     projects:[] },
   { name:'SQL', color:'#0F6E56', bg:'#E1F5EE', category:'Linguagem de consulta',
     desc:'Linguagem padrão para consulta e modelagem de dados relacionais. Utilizado no Athena para análise dos dados coletados pelos pipelines.',
-    projects:[{icon:'🪙', name:'crypto-pipeline'}] },
+    projects:[
+  {icon:'🪙', name:'crypto-pipeline'},
+  {icon:'🏗️', name:'crypto-dw'}] },
   { name:'Apache Parquet', color:'#0F6E56', bg:'#E1F5EE', category:'Formato de arquivo',
     desc:'Formato de arquivo colunar otimizado para big data. Compressão eficiente e leitura seletiva de colunas — padrão da indústria em engenharia de dados.',
     projects:[{icon:'🪙', name:'crypto-pipeline'}] },
   { name:'Flask', color:'#534AB7', bg:'#EEEDFE', category:'Framework web',
     desc:'Microframework Python para construção de aplicações web e APIs REST. Utilizado para servir o dashboard de arbitragem com rotas e templates Jinja2.',
-{ name:'Star Schema', color:'#0F6E56', bg:'#E1F5EE', category:'Modelagem de dados',
-  desc:'Modelo dimensional com tabela fato e dimensões. Usado para organizar dados históricos de criptomoedas em um Data Warehouse consultável via SQL.',
-  projects:[{icon:'🏗️', name:'crypto-dw'}] },
+ 
     projects:[{icon:'💱', name:'arbitrage-brl-ars'}] },
   { name:'Git', color:'#534AB7', bg:'#EEEDFE', category:'Controle de versão',
     desc:'Sistema de controle de versão distribuído. Todos os projetos são versionados e publicados no GitHub com commits semânticos.',
     projects:[{icon:'🪙', name:'crypto-pipeline'},{icon:'💱', name:'arbitrage-brl-ars'}] },
+  { name:'Star Schema', color:'#0F6E56', bg:'#E1F5EE', category:'Modelagem de dados',
+  desc:'Modelo dimensional com tabela fato e dimensões. Usado para organizar dados históricos de criptomoedas em um Data Warehouse consultável via SQL.',
+  projects:[{icon:'🏗️', name:'crypto-dw'}] },
+  {
+  name:'Data Warehouse',
+  color:'#0F6E56',
+  bg:'#E1F5EE',
+  category:'Arquitetura Analítica',
+  desc:'Repositório analítico estruturado para suportar consultas históricas, métricas de negócio e análise de dados utilizando modelagem dimensional.',
+  projects:[
+    {icon:'🏗️', name:'crypto-dw'}
+  ]
+},
+{
+  name:'Modelagem Dimensional',
+  color:'#0F6E56',
+  bg:'#E1F5EE',
+  category:'Data Modeling',
+  desc:'Técnica de modelagem de dados utilizando tabelas fato e dimensões para otimizar análises e consultas em ambientes analíticos.',
+  projects:[
+    {icon:'🏗️', name:'crypto-dw'}
+  ]
+},
 ];
 
 const grid = document.getElementById('stack-grid');
